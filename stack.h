@@ -31,6 +31,6 @@
 
 
 #define Stack_destroy(s)\
-{free((s)->array);} while (0)
+{ free((s)->array); }
 
 #endif 
